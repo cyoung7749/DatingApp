@@ -26,14 +26,14 @@ namespace API
       _config = config;
 
     }
-    public IConfiguration Configuration { get; } //default configurations
+    //public IConfiguration Configuration { get; } //default configurations
 
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddDbContext<DataContext>(options =>
       {
-        options.UseSqlite(_config.GetConnectionString("DefaultConnection)"));
+        options.UseSqlite(_config.GetConnectionString("DefaultConnection"));
       });
       services.AddControllers();
       services.AddSwaggerGen(c =>
