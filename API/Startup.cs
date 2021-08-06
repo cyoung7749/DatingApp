@@ -44,7 +44,7 @@ namespace API
       {
         cors.AddPolicy("Public", policy =>
         {
-          policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200/");
+          policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
         });
       });
     }
@@ -63,8 +63,8 @@ namespace API
 
       app.UseRouting();
 
-      app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()); //don't use with origins
-
+      app.UseCors(policy =>
+          policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
       app.UseAuthorization();
 
       app.UseEndpoints(endpoints =>
