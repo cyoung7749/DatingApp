@@ -14,7 +14,10 @@
   <div *ngIf="registerMode" class="container">
     <div class="row justify-content-center">
       <div class="col-4">
-        <app-register></app-register>
+        <app-register
+          (cancelRegister)="cancelRegisterMode($event)"
+        ></app-register>
+        <!-- register (child) will get data from home (parent) -->
       </div>
     </div>
   </div>
