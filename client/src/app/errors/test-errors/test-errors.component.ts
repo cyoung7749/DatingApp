@@ -42,7 +42,7 @@ get401error(){
   })
 }
 get400ValidationError(){
-  this.http.get(this.baseUrl + 'account/register', {}).subscribe(response => {
+  this.http.post(this.baseUrl + 'account/register', {}).subscribe(response => {
     console.log(response);
   }, error => {
     console.log(error);
