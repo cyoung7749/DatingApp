@@ -22,13 +22,8 @@ export class ErrorInterceptor implements HttpInterceptor {
           switch (error.status) {
             case 400:
               if (error.error.errors){
-                const modalStateErrors = [];
-                for (const key in error.error.errors){
-                  if (error.error.errors[key]) {
-                    modalStateErrors.push(error.error.errorsp[key])
-                  }
-                }
-                throw modalStateErrors; //add .flat() after install es2019, not sure if needed anymore
+                throw Object.values(error.error.errors).flat();
+                //add .flat() after install es2019, not sure if needed anymore
               } else{
                 this.toastr.error(error.statusText, error.status)
               }
