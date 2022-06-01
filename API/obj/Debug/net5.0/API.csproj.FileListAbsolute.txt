@@ -62,3 +62,6 @@
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Data/UserSeedData.json
+/home/chris/infosys/DatingApp/API/bin/Debug/net5.0/AutoMapper.dll
+/home/chris/infosys/DatingApp/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

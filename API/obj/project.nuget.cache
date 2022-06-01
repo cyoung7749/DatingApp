@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1HzYU+ovKHnYGKFIneCzoFkeb4MP9VcPItXqVSFgX1xo3eyNR3daGfecu9ebgZtl38JjEWh0l4geKBKK/ghkTQ==",
+  "dgSpecHash": "rgUd5DonH49HLwWg+xK3wPRqG3W9f70BqEzyi2qoPHm2n0MZA5lnxq0/63l1r37+V+E3uYmCKB9hiq/SGOJW6A==",
   "success": true,
   "projectFilePath": "/home/chris/infosys/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/home/chris/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/home/chris/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.8/microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -46,6 +48,7 @@
     "/home/chris/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/home/chris/.nuget/packages/system.identitymodel.tokens.jwt/6.12.0/system.identitymodel.tokens.jwt.6.12.0.nupkg.sha512",
     "/home/chris/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/chris/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/chris/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
