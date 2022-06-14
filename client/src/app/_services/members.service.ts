@@ -23,4 +23,7 @@ baseUrl = environment.apiUrl;
   getMember(username: string) {
     return this.http.get<Member>(this.baseUrl + 'users/' + username, httpOptions)
   } 
+  updateMember(member: Member) {
+    return this.http.put(this.baseUrl + 'users', member);
+  }
 }
