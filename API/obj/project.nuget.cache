@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "rgUd5DonH49HLwWg+xK3wPRqG3W9f70BqEzyi2qoPHm2n0MZA5lnxq0/63l1r37+V+E3uYmCKB9hiq/SGOJW6A==",
+  "dgSpecHash": "BtcvyJxS1/a11MBpATPUxwM6F0OfbqrD2RivzePJoNrzAU8vzAcqyUdltwRmLPE0WWT4lN7w6VCJ6lwoiV76Iw==",
   "success": true,
   "projectFilePath": "/home/chris/infosys/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/home/chris/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/home/chris/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/home/chris/.nuget/packages/cloudinarydotnet/1.19.0/cloudinarydotnet.1.19.0.nupkg.sha512",
     "/home/chris/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.8/microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.data.sqlite.core/5.0.8/microsoft.data.sqlite.core.5.0.8.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -35,6 +39,7 @@
     "/home/chris/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.identitymodel.tokens/6.12.0/microsoft.identitymodel.tokens.6.12.0.nupkg.sha512",
     "/home/chris/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/chris/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/chris/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/home/chris/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/home/chris/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -49,7 +54,8 @@
     "/home/chris/.nuget/packages/system.identitymodel.tokens.jwt/6.12.0/system.identitymodel.tokens.jwt.6.12.0.nupkg.sha512",
     "/home/chris/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/chris/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
-    "/home/chris/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/home/chris/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/home/chris/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
