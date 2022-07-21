@@ -65,3 +65,5 @@
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Data/UserSeedData.json
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/AutoMapper.dll
 /home/chris/infosys/DatingApp/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/chris/infosys/DatingApp/API/bin/Debug/net5.0/CloudinaryDotNet.dll
+/home/chris/infosys/DatingApp/API/bin/Debug/net5.0/Newtonsoft.Json.dll
