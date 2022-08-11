@@ -1,3 +1,4 @@
 {
-  "editor.tokenColorCustomizations": null
+  "editor.tokenColorCustomizations": null,
+  "csharpextensions.privateMemberPrefix": "_"
 }
