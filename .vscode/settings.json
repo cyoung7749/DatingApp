@@ -1,4 +1,5 @@
 {
-  "editor.tokenColorCustomizations": null,
-  "csharpextensions.privateMemberPrefix": "_"
+	"editor.tokenColorCustomizations": null,
+	"csharpextensions.privateMemberPrefix": "_",
+	"omnisharp.enableEditorConfigSupport": true
 }

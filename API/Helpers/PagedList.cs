@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using API.DTOs;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Helpers
@@ -29,5 +30,10 @@ namespace API.Helpers
             var items = await source.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
             return new PagedList<T>(items,count,pageNumber,pageSize);
         }
+
+    internal static Task<PagedList<LikeDto>> CreateAsync(Task<List<LikeDto>> likedUsers, int pageNumber, int pageSize)
+    {
+      throw new NotImplementedException();
     }
+  }
 }
