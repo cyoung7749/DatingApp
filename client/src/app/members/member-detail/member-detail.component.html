@@ -1,4 +1,4 @@
-<div class="row" *ngIf="member">
+<div class="row">
   <div class="col-4">
     <div class="card">
       <img
@@ -57,7 +57,10 @@
         ></ngx-gallery>
       </tab>
       <tab heading="Messages" (selectTab)="onTabActivated($event)">
-        <app-member-messages [messages]="messages"></app-member-messages>
+        <app-member-messages
+          [messages]="messages"
+          [username]="member.username"
+        ></app-member-messages>
       </tab>
     </tabset>
   </div>
