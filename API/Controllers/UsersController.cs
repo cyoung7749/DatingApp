@@ -29,7 +29,7 @@ namespace API.Controllers
     private readonly IUserRepository _userRepository;
     private readonly IMapper _mapper;
     private readonly IPhotoService _photoService;
-    private int photoId;
+    //private int photoId;
 
     //private readonly DataContext _context;
     public UsersController(IUserRepository userRepository, IMapper mapper, IPhotoService photoService)
@@ -66,7 +66,7 @@ namespace API.Controllers
       return Ok(users);
     }
     // api/users/# # = id of user
-    [Authorize]
+
     [HttpGet("{username}", Name = "GetUser")]
     public async Task<ActionResult<MemberDto>> GetUser(string username)
     {
